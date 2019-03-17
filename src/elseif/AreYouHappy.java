@@ -14,14 +14,11 @@ public class AreYouHappy {
 		System.exit(0);
 	}
 	
-	if (ruhappy.equals("no")) {
+	else if (ruhappy.equals("no")) {
 		String douwanttobehappy = JOptionPane.showInputDialog("Do you want to be happy");
 	
-	String douwanttobehappy1 = JOptionPane.showInputDialog("Do you want to be happy");
 	
-	}
 	
-	Object douwanttobehappy = null;
 	if (douwanttobehappy.equals("yes")) {
 		JOptionPane.showMessageDialog(null, "Change Something");
 	}
@@ -29,7 +26,7 @@ public class AreYouHappy {
 	if (douwanttobehappy.equals("no")) {
 		JOptionPane.showMessageDialog(null, "Keep doing whatever you are doing");
 	}
-
+	}
 
 
 
